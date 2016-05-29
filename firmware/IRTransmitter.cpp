@@ -48,5 +48,4 @@ void IRTransmitter::Transmit(unsigned int *data, size_t length) {
         if (i < length) Space(data[i]); // pointer will be moved by for loop
     }
     digitalWrite(led_pin_, LOW);
-    delay(500);
 }
